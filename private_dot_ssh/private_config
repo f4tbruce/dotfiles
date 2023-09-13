@@ -1,0 +1,14 @@
+
+# DevPod Start rust.devpod
+Host rust.devpod
+  ForwardAgent yes
+  LogLevel error
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+  ProxyCommand /usr/local/bin/devpod ssh --stdio --context default --user root rust
+  User root
+# DevPod End rust.devpodHost *
+    AddKeysToAgent yes
+    UseKeychain yes
+    IdentityFile ~/.ssh/id_ed25519
+    

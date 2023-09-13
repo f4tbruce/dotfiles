@@ -1,0 +1,2 @@
+. "$HOME/.cargo/env"
+alias config='/usr/bin/git --git-dir=/home/f4tb/.dotfiles/ --work-tree=/home/f4tb'
